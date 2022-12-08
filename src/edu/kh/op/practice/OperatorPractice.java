@@ -100,9 +100,18 @@ public class OperatorPractice {
 		System.out.printf("평균 : %.1f " , avg);
 		
 		
+		// 세 과목의 점수와 평균을 가지고 합격 여부를 처리하는데
+				// 세 과목 점수가 각각 40점 이상이면서 평균이 60점 이상일 때 합격,
+				// 아니라면 불합격을 출력하세요.
 		
+		boolean result = (input9 >= 40) && (input10 >= 40) && (input11 >= 40) 
+				&&(avg >= 40);
 		
+		System.out.println();
+		System.out.println(result ? "합격" : "불합격");
+							//조건식 ? 식1 :식2
+		}
+	
 		
-		
-	}
 }
+
